@@ -50,4 +50,14 @@ aside{
     background-color: brown;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    flex-grow: 1;
+    background-image: url(../img/Blastoise.jpeg);
+    min-width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
