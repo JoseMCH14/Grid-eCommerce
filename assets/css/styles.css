@@ -56,6 +56,7 @@ aside{
 .foto{
     flex-grow: 1;
     background-image: url(../img/Blastoise.jpeg);
+    background-color: white;
     min-width: 100%;
     background-size: contain;
     background-position: center;
