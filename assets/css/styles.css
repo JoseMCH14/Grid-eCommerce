@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+nav {
+    grid-area:nav;
+    height: 5vh;
+    background-color: aqua;
+}
+
+main {
+    grid-area: main;
+    height: 90vh;
+    background-color: azure;
+}
+
+footer {
+    grid-area:footer;
+    height: 5vh;
+    background-color: black;
+    color:white
+}
+
+aside{
+    grid-area:aside;
+    background-color: gray;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 0.5fr 4fr;
+
+}
