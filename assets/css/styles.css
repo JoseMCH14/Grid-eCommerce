@@ -10,8 +10,8 @@ nav {
     background-color: aqua;
 }
 
-main {
-    grid-area: main;
+section {
+    grid-area: section;
     height: 88vh;
     background-color: azure;
 }
@@ -32,7 +32,7 @@ aside{
     display: grid;
     grid-template-areas: 
     "nav nav"
-    "aside main"
+    "aside section"
     "footer footer";
     grid-template-columns: 0.5fr 4fr;
 
