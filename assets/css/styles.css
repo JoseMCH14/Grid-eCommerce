@@ -8,9 +8,12 @@ nav {
     grid-area:nav;
     height: 5vh;
     background-color: #21618C;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 section {
@@ -30,6 +33,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 aside{
@@ -79,13 +83,24 @@ aside span {
 
 .Descripcion{
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.categoria{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.precio{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .titulo{
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 button{
+    font-family: 'Roboto', sans-serif;
     background-color: #21618C;
     color: white;
     width: 100%;
