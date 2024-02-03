@@ -78,7 +78,8 @@ aside span {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
+    justify-content:start;
 }
 
 .Descripcion{
@@ -92,6 +93,7 @@ aside span {
 
 .precio{
     font-family: 'Open Sans', sans-serif;
+    margin: 6px;
 }
 
 .titulo{
@@ -104,9 +106,14 @@ button{
     background-color: #21618C;
     color: white;
     width: 100%;
+    padding: 5px;
 }
 
 aside span{
     color:#979A9A;
     font-weight:bold
+}
+
+.foto{
+    max-height: 20%;
 }
