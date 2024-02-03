@@ -27,13 +27,28 @@ footer {
     height: 5vh;
     background-color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.iconos{
+    margin-left: 5px;
 }
 
 footer a {
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+    color:black;
+}
+
+footer i{
+    margin-right: 5px ;
+}
+
+footer i:hover{
+    color:#21618C;
+    font-weight: bold;
 }
 
 aside{
@@ -85,10 +100,16 @@ aside span {
 .Descripcion{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    margin-top: 3px;
 }
 
 .categoria{
     font-family: 'Open Sans', sans-serif;
+}
+
+.categoria:hover{
+    color:#85C1E9;
+    font-weight: bold;
 }
 
 .precio{
@@ -109,9 +130,12 @@ button{
     padding: 5px;
 }
 
+button:hover{
+    background-color: #85C1E9;
+}
+
 aside span{
     color:#979A9A;
-    font-weight:bold
 }
 
 .foto{
@@ -120,6 +144,7 @@ aside span{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: whitesmoke;
 }
 
 .item1{
