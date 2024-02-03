@@ -115,5 +115,25 @@ aside span{
 }
 
 .foto{
-    max-height: 20%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.item1{
+    background-image: url(../img/Nevera.png);
+}
+
+.item2{
+    background-image: url(../img/Licuadora.png);
+}
+
+.item3{
+    background-image: url(../img/hervidora.png);
+}
+
+.item4{
+    background-image: url(../img/Plancha.png);
 }
